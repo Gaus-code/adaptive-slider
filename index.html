@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание Cloveri</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="slider__buttons">
+                <button class="slider__btn-prev slider__left-arrow">
+                    <svg class="slider__arrow-left" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                        <g opacity="0.5">
+                          <rect x="60" y="60" width="60" height="60" rx="30" transform="rotate(180 60 60)" fill="#F6F6F6"/>
+                          <path d="M36.3 15L21.3 30L36.3 45" stroke="#1F1F1F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg> 
+                </button>
+                <button class="slider__btn-next slider__right-arrow">
+                    <svg class="slider__arrow-right" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                        <g opacity="0.5">
+                          <rect width="60" height="60" rx="30" transform="matrix(1 0 0 -1 0 60)" fill="#F6F6F6"/>
+                          <path d="M23.7 15L38.7 30L23.7 45" stroke="#1F1F1F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                      </svg>
+                </button>
+            </div>
+            <div class="slider__text-wrapper">
+                <div class="slider__title">
+                    <div class="slider__text">
+                        <h1 class="header-js">Заголовок <br>слайда</h1>
+                        <p class="text-js">Описание. Может занимать от 1 до 7 строк.<br>Описание. Может занимать от 1 до 7 строк.
+                            <br>Описание. Может занимать от 1 до 7 строк.<br>Описание. Может занимать от 1 до 7 строк.
+                            <br>Описание. Может занимать от 1 до 7 строк.<br>Описание. Может занимать от 1 до 7 строк.
+                        </p>
+                    </div>
+                    <button class="slider__button"><a href="#">Текст кнопки</a></button>
+                </div>
+                <div class="slider__wrapper">
+                    <div class="slider__dot active"></div>
+                    <div class="slider__dot"></div>
+                    <div class="slider__dot"></div>
+                    <div class="slider__dot"></div>
+                </div>
+            </div>
+            <div class="slider__container">
+                <div class="slider">
+                    <div class="slider__line">
+                        <img src="img/sl-1.png" alt="first slide" class="slider__img">
+                        <img src="img/sl-2.png" alt="second slide" class="slider__img">
+                        <img src="img/sl-1.png" alt="third slide" class="slider__img">
+                        <img src="img/sl-2.png" alt="second slide" class="slider__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
